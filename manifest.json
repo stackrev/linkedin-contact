@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "URL Display",
+    "version": "1.0",
+    "description": "A Chrome extension to display the current URL.",
+    "permissions": [
+      "tabs"
+    ],
+    "host_permissions": ["https://api.fullcontact.com/*"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
